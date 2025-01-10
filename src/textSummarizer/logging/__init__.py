@@ -10,7 +10,6 @@ os.makedirs(log_dir,exist_ok=True)
 logging.basicConfig(
     level= logging.INFO,
     format= log_str,
-
     handlers=[
         logging.FileHandler(log_filepath),
         logging.StreamHandler(sys.stdout)
