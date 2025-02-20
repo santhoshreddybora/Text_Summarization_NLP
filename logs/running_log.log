@@ -21,3 +21,308 @@
 [2025-01-12 16:42:54,642: INFO: data_ingestion : Extracting zip file artifacts/data_ingestion/data.zip]
 [2025-01-12 16:42:54,785: INFO: data_ingestion : Data extracted to artifacts/data_ingestion]
 [2025-01-12 16:42:54,787: INFO: main : Stage Data Ingestion stage Completed]
+[2025-01-12 19:18:35,998: INFO: config : PyTorch version 2.3.1 available.]
+[2025-01-12 19:28:21,466: INFO: common : yaml file: config\config.yaml loaded successfully]
+[2025-01-12 19:28:21,474: INFO: common : yaml file: params.yaml loaded successfully]
+[2025-01-12 19:29:15,722: INFO: common : yaml file: config\config.yaml loaded successfully]
+[2025-01-12 19:29:15,727: INFO: common : yaml file: params.yaml loaded successfully]
+[2025-01-12 19:29:15,729: INFO: common : created directory at: artifacts]
+[2025-01-12 19:31:33,109: INFO: common : yaml file: config\config.yaml loaded successfully]
+[2025-01-12 19:31:33,113: INFO: common : yaml file: params.yaml loaded successfully]
+[2025-01-12 19:31:33,113: INFO: common : created directory at: artifacts]
+[2025-01-12 19:32:58,819: INFO: common : yaml file: config\config.yaml loaded successfully]
+[2025-01-12 19:32:58,821: INFO: common : yaml file: params.yaml loaded successfully]
+[2025-01-12 19:32:58,823: INFO: common : created directory at: artifacts]
+[2025-01-12 19:34:02,848: INFO: common : yaml file: config\config.yaml loaded successfully]
+[2025-01-12 19:34:02,851: INFO: common : yaml file: params.yaml loaded successfully]
+[2025-01-12 19:34:02,853: INFO: common : created directory at: artifacts]
+[2025-01-12 19:36:14,642: INFO: common : yaml file: config\config.yaml loaded successfully]
+[2025-01-12 19:36:14,645: INFO: common : yaml file: params.yaml loaded successfully]
+[2025-01-12 19:36:14,648: INFO: common : created directory at: artifacts]
+[2025-01-12 19:36:29,319: INFO: common : yaml file: config\config.yaml loaded successfully]
+[2025-01-12 19:36:29,323: INFO: common : yaml file: params.yaml loaded successfully]
+[2025-01-12 19:36:29,325: INFO: common : created directory at: artifacts]
+[2025-01-12 19:36:36,469: INFO: common : yaml file: config\config.yaml loaded successfully]
+[2025-01-12 19:36:36,470: INFO: common : yaml file: params.yaml loaded successfully]
+[2025-01-12 19:36:36,473: INFO: common : created directory at: artifacts]
+[2025-01-12 19:37:06,624: INFO: common : yaml file: config\config.yaml loaded successfully]
+[2025-01-12 19:37:06,627: INFO: common : yaml file: params.yaml loaded successfully]
+[2025-01-12 19:37:06,629: INFO: common : created directory at: artifacts]
+[2025-01-12 19:37:26,573: INFO: common : yaml file: config\config.yaml loaded successfully]
+[2025-01-12 19:37:26,576: INFO: common : yaml file: params.yaml loaded successfully]
+[2025-01-12 19:37:26,576: INFO: common : created directory at: artifacts]
+[2025-01-12 19:37:33,160: INFO: common : yaml file: config\config.yaml loaded successfully]
+[2025-01-12 19:37:33,160: INFO: common : yaml file: params.yaml loaded successfully]
+[2025-01-12 19:37:33,160: INFO: common : created directory at: artifacts]
+[2025-01-12 19:38:53,668: INFO: common : yaml file: config\config.yaml loaded successfully]
+[2025-01-12 19:38:53,672: INFO: common : yaml file: params.yaml loaded successfully]
+[2025-01-12 19:38:53,674: INFO: common : created directory at: artifacts]
+[2025-01-12 19:39:29,138: INFO: common : yaml file: config\config.yaml loaded successfully]
+[2025-01-12 19:39:29,138: INFO: common : yaml file: params.yaml loaded successfully]
+[2025-01-12 19:39:29,143: INFO: common : created directory at: artifacts]
+[2025-01-12 19:39:39,280: INFO: common : yaml file: config\config.yaml loaded successfully]
+[2025-01-12 19:39:39,280: INFO: common : yaml file: params.yaml loaded successfully]
+[2025-01-12 19:39:39,280: INFO: common : created directory at: artifacts]
+[2025-01-12 19:43:52,399: INFO: common : yaml file: config\config.yaml loaded successfully]
+[2025-01-12 19:43:52,402: INFO: common : yaml file: params.yaml loaded successfully]
+[2025-01-12 19:43:52,403: INFO: common : created directory at: artifacts]
+[2025-01-12 19:44:30,981: INFO: common : yaml file: config\config.yaml loaded successfully]
+[2025-01-12 19:44:30,982: INFO: common : yaml file: params.yaml loaded successfully]
+[2025-01-12 19:44:30,984: INFO: common : created directory at: artifacts]
+[2025-01-12 20:59:03,225: INFO: config : PyTorch version 2.3.1 available.]
+[2025-01-12 20:59:03,688: INFO: main : Satge Data Ingestion Stage initiated]
+[2025-01-12 20:59:03,692: INFO: common : yaml file: config\config.yaml loaded successfully]
+[2025-01-12 20:59:03,692: INFO: common : yaml file: params.yaml loaded successfully]
+[2025-01-12 20:59:03,692: INFO: common : created directory at: artifacts]
+[2025-01-12 20:59:03,692: INFO: common : created directory at: artifacts/data_ingestion]
+[2025-01-12 20:59:03,696: INFO: data_ingestion : Downloading data from https://raw.githubusercontent.com/santhoshreddybora/NLP_data/refs/heads/main/summarizer-data.zip]
+[2025-01-12 20:59:03,698: INFO: data_ingestion : artifacts/data_ingestion/data.zip already exists]
+[2025-01-12 20:59:03,698: INFO: data_ingestion : Extracting zip file artifacts/data_ingestion/data.zip]
+[2025-01-12 20:59:03,807: ERROR: main : [Errno 22] Invalid argument: 'artifacts\\data_ingestion\\samsum_dataset\\test\\data-00000-of-00001.arrow']
+Traceback (most recent call last):
+  File "main.py", line 11, in <module>
+    data_ingestion_pipeline.initiate_data_ingestion()
+  File "d:\machinelearning\text_summarization_nlp\src\textSummarizer\pipeline\data_ingestion_pipeline.py", line 13, in initiate_data_ingestion
+    data_ingestion.extract_unzip_file()
+  File "d:\machinelearning\text_summarization_nlp\src\textSummarizer\conponents\data_ingestion.py", line 21, in extract_unzip_file
+    zip_ref.extractall(self.config.unzip_dir)
+  File "C:\Users\santh\anaconda3\envs\nlp\lib\zipfile.py", line 1659, in extractall
+    self._extract_member(zipinfo, path, pwd)
+  File "C:\Users\santh\anaconda3\envs\nlp\lib\zipfile.py", line 1713, in _extract_member
+    open(targetpath, "wb") as target:
+OSError: [Errno 22] Invalid argument: 'artifacts\\data_ingestion\\samsum_dataset\\test\\data-00000-of-00001.arrow'
+[2025-01-12 21:03:48,816: INFO: config : PyTorch version 2.3.1 available.]
+[2025-01-12 21:03:49,033: INFO: main : Satge Data Ingestion Stage initiated]
+[2025-01-12 21:03:49,034: INFO: common : yaml file: config\config.yaml loaded successfully]
+[2025-01-12 21:03:49,036: INFO: common : yaml file: params.yaml loaded successfully]
+[2025-01-12 21:03:49,036: INFO: common : created directory at: artifacts]
+[2025-01-12 21:03:49,038: INFO: common : created directory at: artifacts/data_ingestion]
+[2025-01-12 21:03:49,038: INFO: data_ingestion : Downloading data from https://raw.githubusercontent.com/santhoshreddybora/NLP_data/refs/heads/main/summarizer-data.zip]
+[2025-01-12 21:03:52,402: INFO: data_ingestion : Data downloaded to artifacts/data_ingestion/data.zip]
+[2025-01-12 21:03:52,402: INFO: data_ingestion : Extracting zip file artifacts/data_ingestion/data.zip]
+[2025-01-12 21:03:52,507: ERROR: main : [Errno 22] Invalid argument: 'artifacts\\data_ingestion\\samsum_dataset\\test\\data-00000-of-00001.arrow']
+Traceback (most recent call last):
+  File "main.py", line 11, in <module>
+    data_ingestion_pipeline.initiate_data_ingestion()
+  File "d:\machinelearning\text_summarization_nlp\src\textSummarizer\pipeline\data_ingestion_pipeline.py", line 13, in initiate_data_ingestion
+    data_ingestion.extract_unzip_file()
+  File "d:\machinelearning\text_summarization_nlp\src\textSummarizer\conponents\data_ingestion.py", line 21, in extract_unzip_file
+    zip_ref.extractall(self.config.unzip_dir)
+  File "C:\Users\santh\anaconda3\envs\nlp\lib\zipfile.py", line 1659, in extractall
+    self._extract_member(zipinfo, path, pwd)
+  File "C:\Users\santh\anaconda3\envs\nlp\lib\zipfile.py", line 1713, in _extract_member
+    open(targetpath, "wb") as target:
+OSError: [Errno 22] Invalid argument: 'artifacts\\data_ingestion\\samsum_dataset\\test\\data-00000-of-00001.arrow'
+[2025-01-12 21:06:22,410: INFO: config : PyTorch version 2.3.1 available.]
+[2025-01-12 21:06:22,620: INFO: main : Satge Data Ingestion Stage initiated]
+[2025-01-12 21:06:22,620: INFO: common : yaml file: config\config.yaml loaded successfully]
+[2025-01-12 21:06:22,625: INFO: common : yaml file: params.yaml loaded successfully]
+[2025-01-12 21:06:22,625: INFO: common : created directory at: artifacts]
+[2025-01-12 21:06:22,626: INFO: common : created directory at: artifacts/data_ingestion]
+[2025-01-12 21:06:22,626: INFO: data_ingestion : Downloading data from https://raw.githubusercontent.com/santhoshreddybora/NLP_data/refs/heads/main/summarizer-data.zip]
+[2025-01-12 21:06:24,769: INFO: data_ingestion : Data downloaded to artifacts/data_ingestion/data.zip]
+[2025-01-12 21:06:24,769: INFO: data_ingestion : Extracting zip file artifacts/data_ingestion/data.zip]
+[2025-01-12 21:06:24,840: ERROR: main : [Errno 22] Invalid argument: 'artifacts\\data_ingestion\\samsum_dataset\\test\\data-00000-of-00001.arrow']
+Traceback (most recent call last):
+  File "main.py", line 11, in <module>
+    data_ingestion_pipeline.initiate_data_ingestion()
+  File "d:\machinelearning\text_summarization_nlp\src\textSummarizer\pipeline\data_ingestion_pipeline.py", line 13, in initiate_data_ingestion
+    data_ingestion.extract_unzip_file()
+  File "d:\machinelearning\text_summarization_nlp\src\textSummarizer\conponents\data_ingestion.py", line 21, in extract_unzip_file
+    zip_ref.extractall(self.config.unzip_dir)
+  File "C:\Users\santh\anaconda3\envs\nlp\lib\zipfile.py", line 1659, in extractall
+    self._extract_member(zipinfo, path, pwd)
+  File "C:\Users\santh\anaconda3\envs\nlp\lib\zipfile.py", line 1713, in _extract_member
+    open(targetpath, "wb") as target:
+OSError: [Errno 22] Invalid argument: 'artifacts\\data_ingestion\\samsum_dataset\\test\\data-00000-of-00001.arrow'
+[2025-01-12 21:22:33,655: INFO: config : PyTorch version 2.3.1 available.]
+[2025-01-12 21:22:33,860: INFO: main : Satge Data Ingestion Stage initiated]
+[2025-01-12 21:22:33,860: INFO: common : yaml file: config\config.yaml loaded successfully]
+[2025-01-12 21:22:33,860: INFO: common : yaml file: params.yaml loaded successfully]
+[2025-01-12 21:22:33,860: INFO: common : created directory at: artifacts]
+[2025-01-12 21:22:33,860: INFO: common : created directory at: artifacts/data_ingestion]
+[2025-01-12 21:22:33,860: INFO: data_ingestion : Downloading data from https://raw.githubusercontent.com/santhoshreddybora/NLP_data/refs/heads/main/summarizer-data.zip]
+[2025-01-12 21:22:36,547: ERROR: main : <urlopen error [WinError 10054] An existing connection was forcibly closed by the remote host>]
+Traceback (most recent call last):
+  File "C:\Users\santh\anaconda3\envs\nlp\lib\urllib\request.py", line 1354, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\santh\anaconda3\envs\nlp\lib\http\client.py", line 1256, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\santh\anaconda3\envs\nlp\lib\http\client.py", line 1302, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\santh\anaconda3\envs\nlp\lib\http\client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\santh\anaconda3\envs\nlp\lib\http\client.py", line 1011, in _send_output
+    self.send(msg)
+  File "C:\Users\santh\anaconda3\envs\nlp\lib\http\client.py", line 951, in send
+    self.connect()
+  File "C:\Users\santh\anaconda3\envs\nlp\lib\http\client.py", line 1425, in connect
+    self.sock = self._context.wrap_socket(self.sock,
+  File "C:\Users\santh\anaconda3\envs\nlp\lib\ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "C:\Users\santh\anaconda3\envs\nlp\lib\ssl.py", line 1073, in _create
+    self.do_handshake()
+  File "C:\Users\santh\anaconda3\envs\nlp\lib\ssl.py", line 1342, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "main.py", line 11, in <module>
+    data_ingestion_pipeline.initiate_data_ingestion()
+  File "d:\machinelearning\text_summarization_nlp\src\textSummarizer\pipeline\data_ingestion_pipeline.py", line 12, in initiate_data_ingestion
+    data_ingestion.download_data()
+  File "d:\machinelearning\text_summarization_nlp\src\textSummarizer\conponents\data_ingestion.py", line 13, in download_data
+    filename,header=request.urlretrieve(self.config.source_url, self.config.local_data_file)
+  File "C:\Users\santh\anaconda3\envs\nlp\lib\urllib\request.py", line 247, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Users\santh\anaconda3\envs\nlp\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\santh\anaconda3\envs\nlp\lib\urllib\request.py", line 525, in open
+    response = self._open(req, data)
+  File "C:\Users\santh\anaconda3\envs\nlp\lib\urllib\request.py", line 542, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\santh\anaconda3\envs\nlp\lib\urllib\request.py", line 502, in _call_chain
+    result = func(*args)
+  File "C:\Users\santh\anaconda3\envs\nlp\lib\urllib\request.py", line 1397, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Users\santh\anaconda3\envs\nlp\lib\urllib\request.py", line 1357, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [WinError 10054] An existing connection was forcibly closed by the remote host>
+[2025-01-12 21:23:22,573: INFO: config : PyTorch version 2.3.1 available.]
+[2025-01-12 21:23:22,855: INFO: main : Satge Data Ingestion Stage initiated]
+[2025-01-12 21:23:22,859: INFO: common : yaml file: config\config.yaml loaded successfully]
+[2025-01-12 21:23:22,861: INFO: common : yaml file: params.yaml loaded successfully]
+[2025-01-12 21:23:22,861: INFO: common : created directory at: artifacts]
+[2025-01-12 21:23:22,861: INFO: common : created directory at: artifacts/data_ingestion]
+[2025-01-12 21:23:22,861: INFO: data_ingestion : Downloading data from https://raw.githubusercontent.com/santhoshreddybora/NLP_data/refs/heads/main/summarizer-data.zip]
+[2025-01-12 21:23:23,874: ERROR: main : [WinError 10054] An existing connection was forcibly closed by the remote host]
+Traceback (most recent call last):
+  File "main.py", line 11, in <module>
+    data_ingestion_pipeline.initiate_data_ingestion()
+  File "d:\machinelearning\text_summarization_nlp\src\textSummarizer\pipeline\data_ingestion_pipeline.py", line 12, in initiate_data_ingestion
+    data_ingestion.download_data()
+  File "d:\machinelearning\text_summarization_nlp\src\textSummarizer\conponents\data_ingestion.py", line 13, in download_data
+    filename,header=request.urlretrieve(self.config.source_url, self.config.local_data_file)
+  File "C:\Users\santh\anaconda3\envs\nlp\lib\urllib\request.py", line 247, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Users\santh\anaconda3\envs\nlp\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\santh\anaconda3\envs\nlp\lib\urllib\request.py", line 525, in open
+    response = self._open(req, data)
+  File "C:\Users\santh\anaconda3\envs\nlp\lib\urllib\request.py", line 542, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\santh\anaconda3\envs\nlp\lib\urllib\request.py", line 502, in _call_chain
+    result = func(*args)
+  File "C:\Users\santh\anaconda3\envs\nlp\lib\urllib\request.py", line 1397, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Users\santh\anaconda3\envs\nlp\lib\urllib\request.py", line 1358, in do_open
+    r = h.getresponse()
+  File "C:\Users\santh\anaconda3\envs\nlp\lib\http\client.py", line 1348, in getresponse
+    response.begin()
+  File "C:\Users\santh\anaconda3\envs\nlp\lib\http\client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\santh\anaconda3\envs\nlp\lib\http\client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\santh\anaconda3\envs\nlp\lib\socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Users\santh\anaconda3\envs\nlp\lib\ssl.py", line 1274, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Users\santh\anaconda3\envs\nlp\lib\ssl.py", line 1132, in read
+    return self._sslobj.read(len, buffer)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+[2025-01-12 21:41:09,472: INFO: config : PyTorch version 2.3.1 available.]
+[2025-01-12 21:41:09,774: INFO: main : Satge Data Ingestion Stage initiated]
+[2025-01-12 21:41:09,774: INFO: common : yaml file: config\config.yaml loaded successfully]
+[2025-01-12 21:41:09,774: INFO: common : yaml file: params.yaml loaded successfully]
+[2025-01-12 21:41:09,774: INFO: common : created directory at: artifacts]
+[2025-01-12 21:41:09,774: INFO: common : created directory at: artifacts/data_ingestion]
+[2025-01-12 21:41:09,774: INFO: data_ingestion : Downloading data from https://raw.githubusercontent.com/santhoshreddybora/NLP_data/refs/heads/main/summarizer-data.zip]
+[2025-01-12 21:41:09,774: INFO: data_ingestion : artifacts/data_ingestion/data.zip already exists]
+[2025-01-12 21:41:09,774: INFO: data_ingestion : Extracting zip file artifacts/data_ingestion/data.zip]
+[2025-01-12 21:41:10,004: INFO: data_ingestion : Data extracted to artifacts/data_ingestion]
+[2025-01-12 21:41:10,006: INFO: main : Stage Data Ingestion Stage Completed]
+[2025-01-12 21:41:10,006: INFO: main : -----------------------------------------------------------------------------------]
+[2025-01-12 21:41:10,006: INFO: main : Satge Data Transformation Stage initiated]
+[2025-01-12 21:41:10,007: INFO: common : yaml file: config\config.yaml loaded successfully]
+[2025-01-12 21:41:10,007: INFO: common : yaml file: params.yaml loaded successfully]
+[2025-01-12 21:41:10,007: INFO: common : created directory at: artifacts]
+[2025-01-12 21:41:10,011: INFO: common : created directory at: artifacts/data_transformation]
+[2025-01-12 21:41:14,835: INFO: main : Stage Data Transformation Stage Completed]
+[2025-01-22 12:49:48,892: INFO: config : PyTorch version 2.3.1 available.]
+[2025-01-22 13:05:51,199: INFO: common : yaml file: config\config.yaml loaded successfully]
+[2025-01-22 13:05:51,203: INFO: common : yaml file: params.yaml loaded successfully]
+[2025-01-22 13:05:51,204: INFO: common : created directory at: artifacts]
+[2025-01-22 13:05:51,207: INFO: common : created directory at: artifacts/model_trainer]
+[2025-01-22 13:07:54,120: INFO: common : yaml file: config\config.yaml loaded successfully]
+[2025-01-22 13:07:54,125: INFO: common : yaml file: params.yaml loaded successfully]
+[2025-01-22 13:07:54,127: INFO: common : created directory at: artifacts]
+[2025-01-22 13:07:54,129: INFO: common : created directory at: artifacts/model_trainer]
+[2025-01-22 13:08:50,800: INFO: common : yaml file: config\config.yaml loaded successfully]
+[2025-01-22 13:08:50,802: INFO: common : yaml file: params.yaml loaded successfully]
+[2025-01-22 13:08:50,806: INFO: common : created directory at: artifacts]
+[2025-01-22 13:08:50,806: INFO: common : created directory at: artifacts/model_trainer]
+[2025-01-22 13:09:01,428: INFO: common : yaml file: config\config.yaml loaded successfully]
+[2025-01-22 13:09:01,431: INFO: common : yaml file: params.yaml loaded successfully]
+[2025-01-22 13:09:01,433: INFO: common : created directory at: artifacts]
+[2025-01-22 13:09:01,435: INFO: common : created directory at: artifacts/model_trainer]
+[2025-01-22 13:09:02,434: INFO: common : yaml file: config\config.yaml loaded successfully]
+[2025-01-22 13:09:02,440: INFO: common : yaml file: params.yaml loaded successfully]
+[2025-01-22 13:09:02,440: INFO: common : created directory at: artifacts]
+[2025-01-22 13:09:02,440: INFO: common : created directory at: artifacts/model_trainer]
+[2025-01-22 13:09:06,687: INFO: common : yaml file: config\config.yaml loaded successfully]
+[2025-01-22 13:09:06,694: INFO: common : yaml file: params.yaml loaded successfully]
+[2025-01-22 13:09:06,696: INFO: common : created directory at: artifacts]
+[2025-01-22 13:09:06,698: INFO: common : created directory at: artifacts/model_trainer]
+[2025-01-22 13:09:33,364: INFO: common : yaml file: config\config.yaml loaded successfully]
+[2025-01-22 13:09:33,368: INFO: common : yaml file: params.yaml loaded successfully]
+[2025-01-22 13:09:33,368: INFO: common : created directory at: artifacts]
+[2025-01-22 13:09:33,372: INFO: common : created directory at: artifacts/model_trainer]
+[2025-01-22 13:10:49,499: INFO: common : yaml file: config\config.yaml loaded successfully]
+[2025-01-22 13:10:49,502: INFO: common : yaml file: params.yaml loaded successfully]
+[2025-01-22 13:10:49,504: INFO: common : created directory at: artifacts]
+[2025-01-22 13:10:49,507: INFO: common : created directory at: artifacts/model_trainer]
+[2025-01-22 13:12:57,337: INFO: common : yaml file: config\config.yaml loaded successfully]
+[2025-01-22 13:12:57,337: INFO: common : yaml file: params.yaml loaded successfully]
+[2025-01-22 13:12:57,344: INFO: common : created directory at: artifacts]
+[2025-01-22 13:12:57,344: INFO: common : created directory at: artifacts/model_trainer]
+[2025-01-22 13:31:13,744: INFO: common : yaml file: config\config.yaml loaded successfully]
+[2025-01-22 13:31:13,744: INFO: common : yaml file: params.yaml loaded successfully]
+[2025-01-22 13:31:13,744: INFO: common : created directory at: artifacts]
+[2025-01-22 13:31:13,751: INFO: common : created directory at: artifacts/model_trainer]
+[2025-01-22 13:32:09,846: INFO: common : yaml file: config\config.yaml loaded successfully]
+[2025-01-22 13:32:09,848: INFO: common : yaml file: params.yaml loaded successfully]
+[2025-01-22 13:32:09,848: INFO: common : created directory at: artifacts]
+[2025-01-22 13:32:09,848: INFO: common : created directory at: artifacts/model_trainer]
+[2025-01-22 13:40:18,835: INFO: config : PyTorch version 2.3.1 available.]
+[2025-01-22 13:40:23,157: INFO: common : yaml file: config\config.yaml loaded successfully]
+[2025-01-22 13:40:23,160: INFO: common : yaml file: params.yaml loaded successfully]
+[2025-01-22 13:40:23,162: INFO: common : created directory at: artifacts]
+[2025-01-22 13:40:23,162: INFO: common : created directory at: artifacts/model_trainer]
+[2025-01-26 11:11:02,031: INFO: common : yaml file: config\config.yaml loaded successfully]
+[2025-01-26 11:11:02,042: INFO: common : yaml file: params.yaml loaded successfully]
+[2025-01-26 11:11:02,044: INFO: common : created directory at: artifacts]
+[2025-01-26 11:11:02,047: INFO: common : created directory at: artifacts/model_trainer]
+[2025-01-26 11:19:06,177: INFO: common : yaml file: config\config.yaml loaded successfully]
+[2025-01-26 11:19:06,182: INFO: common : yaml file: params.yaml loaded successfully]
+[2025-01-26 11:19:06,183: INFO: common : created directory at: artifacts]
+[2025-01-26 11:19:06,184: INFO: common : created directory at: artifacts/model_trainer]
+[2025-01-26 11:21:02,449: WARNING: file_download : Error while downloading from https://cdn-lfs.hf.co/google/pegasus-cnn_dailymail/89463bc493ce252a2919b01ad3d00bae933f079d0cf279cf96c33312dc63a249?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model.safetensors%3B+filename%3D%22model.safetensors%22%3B&Expires=1737874071&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTczNzg3NDA3MX19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy5oZi5jby9nb29nbGUvcGVnYXN1cy1jbm5fZGFpbHltYWlsLzg5NDYzYmM0OTNjZTI1MmEyOTE5YjAxYWQzZDAwYmFlOTMzZjA3OWQwY2YyNzljZjk2YzMzMzEyZGM2M2EyNDk%7EcmVzcG9uc2UtY29udGVudC1kaXNwb3NpdGlvbj0qIn1dfQ__&Signature=frmiSvhSPFQ7uJaXWLHOKY1PLQNYIBR2kfk8U6ljydfCTX%7E7NFOTbFjp%7EARKaa9XepprvO%7Edp1tDgfXF1RD%7E0PuhoMwxQKuVCM8iRXx1KkQMI1TKulppaIws8O3sunofD714yDXKcKyP1pDa2XPDZaRRlDqeEUs134rCGbNMrivATbgEwm89Fj4a-maasrj6stQqQd3MJ1-Kuv8Q4N2K93ZYF2Qi8o2OLARMxRPr-lwIs0%7EwVuHorG9-QhBSyvQMR6g1I-CxFLeVXZlIYoroZU7c4aL1dZTp6sgeZNar9V%7EWULft-63EFy4t%7EhQPGCCaTyCW3hgb6WsRwdcpEdfLKw__&Key-Pair-Id=K3RPWS32NSSJCE: HTTPSConnectionPool(host='cdn-lfs.hf.co', port=443): Read timed out.
+Trying to resume download...]
+[2025-01-26 11:25:19,025: WARNING: file_download : Error while downloading from https://cdn-lfs.hf.co/google/pegasus-cnn_dailymail/89463bc493ce252a2919b01ad3d00bae933f079d0cf279cf96c33312dc63a249?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model.safetensors%3B+filename%3D%22model.safetensors%22%3B&Expires=1737874071&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTczNzg3NDA3MX19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy5oZi5jby9nb29nbGUvcGVnYXN1cy1jbm5fZGFpbHltYWlsLzg5NDYzYmM0OTNjZTI1MmEyOTE5YjAxYWQzZDAwYmFlOTMzZjA3OWQwY2YyNzljZjk2YzMzMzEyZGM2M2EyNDk%7EcmVzcG9uc2UtY29udGVudC1kaXNwb3NpdGlvbj0qIn1dfQ__&Signature=frmiSvhSPFQ7uJaXWLHOKY1PLQNYIBR2kfk8U6ljydfCTX%7E7NFOTbFjp%7EARKaa9XepprvO%7Edp1tDgfXF1RD%7E0PuhoMwxQKuVCM8iRXx1KkQMI1TKulppaIws8O3sunofD714yDXKcKyP1pDa2XPDZaRRlDqeEUs134rCGbNMrivATbgEwm89Fj4a-maasrj6stQqQd3MJ1-Kuv8Q4N2K93ZYF2Qi8o2OLARMxRPr-lwIs0%7EwVuHorG9-QhBSyvQMR6g1I-CxFLeVXZlIYoroZU7c4aL1dZTp6sgeZNar9V%7EWULft-63EFy4t%7EhQPGCCaTyCW3hgb6WsRwdcpEdfLKw__&Key-Pair-Id=K3RPWS32NSSJCE: HTTPSConnectionPool(host='cdn-lfs.hf.co', port=443): Read timed out.
+Trying to resume download...]
+[2025-01-26 11:28:31,106: WARNING: file_download : Error while downloading from https://cdn-lfs.hf.co/google/pegasus-cnn_dailymail/89463bc493ce252a2919b01ad3d00bae933f079d0cf279cf96c33312dc63a249?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model.safetensors%3B+filename%3D%22model.safetensors%22%3B&Expires=1737874158&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTczNzg3NDE1OH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy5oZi5jby9nb29nbGUvcGVnYXN1cy1jbm5fZGFpbHltYWlsLzg5NDYzYmM0OTNjZTI1MmEyOTE5YjAxYWQzZDAwYmFlOTMzZjA3OWQwY2YyNzljZjk2YzMzMzEyZGM2M2EyNDk%7EcmVzcG9uc2UtY29udGVudC1kaXNwb3NpdGlvbj0qIn1dfQ__&Signature=DGyVtMPb991I4%7En6Ja7oYqynqmkMyTuDQZAl1iWIzXflPXSRLHs9AMRGLtmrgR4-Ozy834frnV7g--TiBu-QyLv86GtIi9mDdP1x%7E4pVXhD3xz8qqMczYNFwQTavuq0WqKZj4vBUUWhxuz0ZHlKOAZh2nRnPJVA0dxqsxxs8jkJ26L1jXRgdzxAVr8Fzavj-Z4LSX-nBl7o629jgFllDmj37rAR60LhwAruc88lkI2lD1x3sSC0yv64g1afYsLKkNzAAloYRxT4Ezc8yOQMJ3WYcZolmR1f3ff4Uuv70XIt6iWGIK2eGdfOlp5s5DbHYVDT1ykAKqPcw60RIKLbZow__&Key-Pair-Id=K3RPWS32NSSJCE: HTTPSConnectionPool(host='cdn-lfs.hf.co', port=443): Read timed out.
+Trying to resume download...]
+[2025-01-26 11:39:23,544: INFO: common : yaml file: config\config.yaml loaded successfully]
+[2025-01-26 11:39:23,550: INFO: common : yaml file: params.yaml loaded successfully]
+[2025-01-26 11:39:23,552: INFO: common : created directory at: artifacts]
+[2025-01-26 11:39:23,554: INFO: common : created directory at: artifacts/model_trainer]
+[2025-01-26 11:59:56,824: INFO: common : yaml file: config\config.yaml loaded successfully]
+[2025-01-26 11:59:56,829: INFO: common : yaml file: params.yaml loaded successfully]
+[2025-01-26 11:59:56,831: INFO: common : created directory at: artifacts]
+[2025-01-26 11:59:56,832: INFO: common : created directory at: artifacts/model_trainer]
+[2025-01-26 12:05:49,239: INFO: common : yaml file: config\config.yaml loaded successfully]
+[2025-01-26 12:05:49,243: INFO: common : yaml file: params.yaml loaded successfully]
+[2025-01-26 12:05:49,244: INFO: common : created directory at: artifacts]
+[2025-01-26 12:05:49,246: INFO: common : created directory at: artifacts/model_trainer]
